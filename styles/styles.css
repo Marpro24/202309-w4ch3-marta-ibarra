@@ -33,10 +33,22 @@ a {
   text-decoration: none;
   color: inherit;
 }
+main {
+  background-color: var(--sub-header-background-color);
+  color: var(--header-color);
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
 
 li {
   margin: 10px;
 }
+
+.minus-symbol {
+  width: 20px;
+}
+
 button {
   border: none;
   font: inherit;
@@ -49,6 +61,7 @@ button {
   color: var(--header-color);
   background-color: var(--main-header-background-color);
   display: flex;
+  justify-content: space-between;
   font-size: 0.8rem;
 }
 
